@@ -1,0 +1,7 @@
+uv init day2
+cd day2
+uv venv
+uv add groq python-dotenv
+code .
+.\.venv\Scripts\Activate.ps1
+python -c "import sys; print(sys.executable)"
