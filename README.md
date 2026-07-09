@@ -1,6 +1,6 @@
 # Learnings from the Python LLM Project
 
-This project is a simple three-day learning journey for working with LLM APIs in Python using Groq.
+This project is a simple day wise learning journey for working with LLM APIs in Python using Groq.
 
 ## Project structure
 - [day1](day1/) contains the first example for connecting to an LLM and getting a response.
