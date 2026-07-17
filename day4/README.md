@@ -55,4 +55,3 @@ Day 4 introduced structured data extraction using Pydantic and JSON schemas. Thi
 
 ## Example files
 - [json_pydantic.py](json_pydantic.py)
-- [main.py](main.py)

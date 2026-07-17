@@ -3,15 +3,19 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+
 # Virtual environments
 .venv/
 venv/
 ENV/
+
 # Environment variables (secrets)
 .env
 .env.*
+
 # Logs
 *.log
+
 # OS-specific files
 .DS_Store
 Thumbs.db
