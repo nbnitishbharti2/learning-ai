@@ -12,6 +12,7 @@ LLMs are trained to predict the next word, which makes them highly creative but 
 - **Prevents Hallucinations**: By adding strict constraints and a **fallback** rule, you prevent the LLM from making up incorrect facts when it doesn't know the answer.
 - **Enables Software Integration**: For an LLM to work as part of a larger software system, its outputs must be clean, structured, and predictable so that your Python code can parse the result without breaking.
 
+
 ## Core Parts of a Structured Prompt
 A professional prompt template often contains:
 - **ROLE**: Who the AI is pretending to be (e.g., support assistant).
