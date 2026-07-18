@@ -5,6 +5,13 @@ Today we learned how to design structured prompts to make the model perform spec
 ## What is Prompt Engineering?
 Prompt Engineering is the practice of structuring text inputs (prompts) for an LLM so that it understands the context and behaves exactly as expected. Instead of asking a simple question, we can provide specific components to guide the model.
 
+## Why is Prompt Engineering Important & Needed?
+LLMs are trained to predict the next word, which makes them highly creative but inherently unpredictable. Prompt Engineering is necessary because:
+- **Ensures Consistency & Reliability**: If your application expects a specific value (like a single word for classification or a JSON payload), prompt engineering forces the model to follow these rules consistently.
+- **Reduces Latency & Cost**: By setting constraints (e.g., "answer in one word only"), you limit the number of tokens the model generates. Fewer tokens mean faster responses and lower API bills.
+- **Prevents Hallucinations**: By adding strict constraints and a **fallback** rule, you prevent the LLM from making up incorrect facts when it doesn't know the answer.
+- **Enables Software Integration**: For an LLM to work as part of a larger software system, its outputs must be clean, structured, and predictable so that your Python code can parse the result without breaking.
+
 ## Core Parts of a Structured Prompt
 A professional prompt template often contains:
 - **ROLE**: Who the AI is pretending to be (e.g., support assistant).
