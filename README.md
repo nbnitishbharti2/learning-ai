@@ -3,11 +3,13 @@
 This project is a simple day-wise learning journey for working with LLM APIs in Python using Groq.
 
 ## Project structure
+- [Introduction](Introduction/) contains the overview of the 9-week learning path and style.
 - [day1](day1/) contains the first example for connecting to an LLM and getting a response.
 - [day2](day2/) covers message roles and temperature.
 - [day3](day3/) explains token usage, finish reasons, and token limits.
 - [day4](day4/) focuses on structured outputs using Pydantic and JSON schemas.
 - [resume_evaluator_project](resume_evaluator_project/) contains a mini resume evaluation project using PDFs, Word documents, and LLMs.
+- [day6](day6/) covers structured prompt engineering and classification tasks.
 
 ## Day-wise learnings
 
@@ -40,3 +42,8 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - Orchestrated multiple sequential LLM tasks (parsing job description, parsing resume, and matching).
 - Implemented robust key-value extraction and match scoring utilizing Pydantic models.
 - See [resume_evaluator_project/README.md](resume_evaluator_project/README.md) for the detailed notes.
+
+### Day 6 - Prompt Engineering
+- Learned how to structure prompt elements including ROLE, TASK, CONSTRAINTS, OUTPUT FORMAT, EXAMPLES, and FALLBACK.
+- Applied structured templates to classify customer emails into single-word categories (billing, technical, return, or OTHER).
+- See [day6/README.md](day6/README.md) for the detailed notes.
