@@ -81,3 +81,15 @@ for step in range(5):
 
 ## Files in this Folder
 - [react_chain.py](file:///d:/PHP8.2/htdocs/learning/python-learning/Padho%20with%20Pratyush/day7/react_chain.py): Full implementation of a ReAct agent using the Groq API.
+
+---
+
+## Running the Example
+1. Make sure dependencies are installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the python script:
+   ```bash
+   python react_chain.py
+   ```
