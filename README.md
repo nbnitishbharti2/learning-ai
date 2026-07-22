@@ -10,6 +10,7 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - [day4](day4/) focuses on structured outputs using Pydantic and JSON schemas.
 - [resume_evaluator_project](resume_evaluator_project/) contains a mini resume evaluation project using PDFs, Word documents, and LLMs.
 - [day6](day6/) covers structured prompt engineering and classification tasks.
+- [day7](day7/) implements the ReAct (Reasoning and Acting) agent pattern with a tool-execution loop.
 
 ## Day-wise learnings
 
@@ -47,3 +48,9 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - Learned how to structure prompt elements including ROLE, TASK, CONSTRAINTS, OUTPUT FORMAT, EXAMPLES, and FALLBACK.
 - Applied structured templates to classify customer emails into single-word categories (billing, technical, return, or OTHER).
 - See [day6/README.md](day6/README.md) for the detailed notes.
+
+### Day 7 - ReAct (Reasoning and Acting) Agents
+- Learned about the ReAct pattern where the LLM alternates between reasoning (Thought) and action (calling tools).
+- Implemented a parser to extract tool calls and executed the tools using Python.
+- Fed observations back to the LLM's conversation history to maintain context.
+- See [day7/README.md](day7/README.md) for the detailed notes.
