@@ -8,9 +8,10 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - [day2](day2/) covers message roles and temperature.
 - [day3](day3/) explains token usage, finish reasons, and token limits.
 - [day4](day4/) focuses on structured outputs using Pydantic and JSON schemas.
-- [resume_evaluator_project](resume_evaluator_project/) contains a mini resume evaluation project using PDFs, Word documents, and LLMs.
+- [day5 - resume_evaluator_project](resume_evaluator_project/) contains a mini resume evaluation project using PDFs, Word documents, and LLMs
 - [day6](day6/) covers structured prompt engineering and classification tasks.
 - [day7](day7/) implements the ReAct (Reasoning and Acting) agent pattern with a tool-execution loop.
+- [day8](day8/) demonstrates prompt chaining by executing sequential tasks where output flows from step to step.
 
 ## Day-wise learnings
 
@@ -38,7 +39,7 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - Sent the schema to the LLM and asked for a JSON object matching the required fields.
 - See [day4/README.md](day4/README.md) for the detailed notes.
 
-### Resume Evaluator Project (Day 5)
+### Day 5 - Resume Evaluator Project 
 - Integrated document parsers (`pypdf` for PDFs, `python-docx` for `.docx` / `.doc` files).
 - Orchestrated multiple sequential LLM tasks (parsing job description, parsing resume, and matching).
 - Implemented robust key-value extraction and match scoring utilizing Pydantic models.
@@ -54,3 +55,9 @@ This project is a simple day-wise learning journey for working with LLM APIs in 
 - Implemented a parser to extract tool calls and executed the tools using Python.
 - Fed observations back to the LLM's conversation history to maintain context.
 - See [day7/README.md](day7/README.md) for the detailed notes.
+
+### Day 8 - Prompt Chaining
+- Learned how to decompose complex tasks into multiple sequential, focused prompts.
+- Connected the output of resume and JD skill extraction steps into a final candidate-matching step.
+- Observed how chaining reduces complexity and increases reliability of LLM completions.
+- See [day8/README.md](day8/README.md) for the detailed notes.
